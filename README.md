@@ -87,6 +87,7 @@ This script includes functions to:
 - Packet Sniffing: Sniff packets on the network.
 - Ping Scan: Scan by pinging each device on the network.
 - Port Scanning: Scan for open ports on devices in the network.
+- OS Detect: Detect the potential OS of a host
 
 ## Contribution
 Contributions are welcome! Please feel free to submit a Pull Request.
