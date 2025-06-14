@@ -122,6 +122,7 @@ def main():
                 print("3. results\t- Display the results of the network scan")
                 print("4. sniff\t- Sniff packets in the network")
                 print("5. help\t\t- Display help information about commands or general usage")
+                print("7. osdetect\t- Detect the potential OS a Host is using.")
                 print("6. exit\t\t- Exit the program")          
                 print("For more inforamtion on a command use: [COMMAND] -h")
         elif "sniff" in prompt:
