@@ -31,12 +31,26 @@ This Python-based network scanner allows you to scan your local network to ident
     pip install scapy requests dicttoxml
     ```
 
-
+### Setting up a venv
+```bash
+python3 -m venv venv
+source venv/bin/activate # On windows: venv\Scripts\Activate
+```
 
 ### Installing Dependencies
 ```bash
-pip install scapy requests dicttoxml 
+pip install -r requirements.txt
 ```
+
+### Create .env file
+```bash
+mv dotenv.template .env
+vim .env # or any editor of your choice, do it with notepad idrc.
+```
+and fill in your macvendors.com API key
+
+
+## Usage
 
 ### How to run CLI
 ```bash
