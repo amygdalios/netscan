@@ -22,7 +22,7 @@ This Python-based network scanner allows you to scan your local network to ident
 1. Clone the repository:
 
     ```sh
-    git clone -b App https://github.com/mitzCanCode/netscan
+    git clone https://github.com/mitzCanCode/netscan.git
     ```
 
 2. Install the required Python libraries:
